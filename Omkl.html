@@ -19,7 +19,20 @@
     </nav>
     <a class="cta" href="Omkl.html"><button>Boka</button></a>
     </header>
-    <div class="grid">
-        <h1>Hejhej</h1>
+    <div class="bookingdiv">
+        <form class="bookingform">
+            <label for="namn">Namn</label>
+            <input type="text" name="Namn" placeholder="Fyll i ditt namn">
+            <label for="medlemsnr">Medlemsnummer</label>
+            <input type="text" name="Medlem"  placeholder="Fyll i medlemsnummer">
+            <label for="datetime-local">Välj bokningsdatum</label>
+            <input type="text" name="date" placeholder="Bokningsdatum">
+            <label for="bana">Val av bana</label>
+            <select id="bana" name="bana">
+                <option value="bana1">Bana ett</option>
+                <option value="bana2">Bana två</option>
+            </select>
+            <input type="submit" value="Slutför bokning">
+        </form>
     </div>
 </html>
