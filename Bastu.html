@@ -15,11 +15,74 @@
             <li><a href="Index.html">Startsida</a></li>
             <li><a href="Kalender.html">Kalender</a></li>
             <li><a href="Bastu.html">Bastu</a></li>
+            <li><a href="Banor.html">Banor</a></li>
         </ul>
     </nav>
-    <a class="cta" href="Omkl.html"><button>Boka</button></a>
+    <a class="cta" href="#"><button>Kontakt</button></a>
     </header>
     <div class="container">
-        <h1>Hejhej</h1>
-    </div>
+        <h1 class="h1padding">Välj mellan flera olika sorters bastu!</h1>
+        <div class="flexcard">
+            <div class="fleximg">
+                <img src="https://picsum.photos/900/600">
+            </div>
+            <article class="flexarticle">
+                <h1 class="h1card">Våtbastu</h1>
+                Tennis är en ursprungligen engelsk racketsport som spelas på rektangulär bana, från början utomhus och senare även inomhus. 
+                De spelande, som skiljs av ett nät, kan vara en mot en (singel) eller två mot två (dubbel), 
+                Spelet uppfanns 1873 av den brittiske majoren Walter Clopton Wingfield (1833-1912) med den gamla racketsporten real tennis som förebild. 
+                Spelet blev snabbt populärt och fick under 1880-talet stor spridning, främst inom den engelsktalande världen. 
+                Redan 1877 spelades det första mästerskapet i Wimbledon. Denna turnering räknas idag som den främsta av de fyra årliga så kallade Grand Slam-turneringarna, 
+                som utöver Wimbledon omfattar Australiska öppna, Franska öppna och US Open. Redan 1896 kom tennis med i olympiska programmet.
+            </article>
+        </div>
+        <div class="flexcard">
+            <div class="fleximg">
+                <img src="https://picsum.photos/900/600">
+            </div>
+            <article class="flexarticle">
+                <h1 class="h1card">Ångbastu</h1>
+                Tennis är en ursprungligen engelsk racketsport som spelas på rektangulär bana, från början utomhus och senare även inomhus. 
+                De spelande, som skiljs av ett nät, kan vara en mot en (singel) eller två mot två (dubbel), 
+                Spelet uppfanns 1873 av den brittiske majoren Walter Clopton Wingfield (1833-1912) med den gamla racketsporten real tennis som förebild. 
+                Spelet blev snabbt populärt och fick under 1880-talet stor spridning, främst inom den engelsktalande världen. 
+                Redan 1877 spelades det första mästerskapet i Wimbledon. Denna turnering räknas idag som den främsta av de fyra årliga så kallade Grand Slam-turneringarna, 
+                som utöver Wimbledon omfattar Australiska öppna, Franska öppna och US Open. Redan 1896 kom tennis med i olympiska programmet.
+            </article>
+        </div>
+        <div class="flexcard">
+            <div class="fleximg">
+                <img src="https://picsum.photos/900/600">
+            </div>
+            <article class="flexarticle">
+                <h1 class="h1card">Infraröd bastu</h1>
+                Tennis är en ursprungligen engelsk racketsport som spelas på rektangulär bana, från början utomhus och senare även inomhus. 
+                De spelande, som skiljs av ett nät, kan vara en mot en (singel) eller två mot två (dubbel), 
+                Spelet uppfanns 1873 av den brittiske majoren Walter Clopton Wingfield (1833-1912) med den gamla racketsporten real tennis som förebild. 
+                Spelet blev snabbt populärt och fick under 1880-talet stor spridning, främst inom den engelsktalande världen. 
+                Redan 1877 spelades det första mästerskapet i Wimbledon. Denna turnering räknas idag som den främsta av de fyra årliga så kallade Grand Slam-turneringarna, 
+                som utöver Wimbledon omfattar Australiska öppna, Franska öppna och US Open. Redan 1896 kom tennis med i olympiska programmet.
+            </article>
+        </div>
+
+
+        <div class="bookingdiv">
+            <form class="bookingform" onsubmit="alert('Bokning slutförd')">
+                <label for="namn">Namn</label>
+                <input type="text" name="Namn" placeholder="Fyll i ditt namn">
+                <label for="medlemsnr">Medlemsnummer</label>
+                <input type="text" name="Medlem"  placeholder="Fyll i medlemsnummer">
+                <label for="bastu">Val av bastu</label>
+                <select id="bastu" name="bastu">
+                    <option value="bastu1">Våtbastu</option>
+                    <option value="bastu2">Ångbastu</option>
+                    <option value="bastu3">Infraröd bastu</option>
+                </select>
+                <label for="datetime-local">Välj bokningsdatum</label>
+                <input type="datetime-local" name="date" placeholder="Bokningsdatum">
+                <input type="submit" value="Slutför bokning">
+            </form>
+        </div>
+        </div>
+    
 </html>
