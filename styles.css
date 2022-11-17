@@ -31,6 +31,7 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-bottom: 20px;
     display: inline-block;
     width: 48%;
+    border-radius: 25px; 
 }
 
 .cardright {
@@ -41,24 +42,35 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-bottom: 20px;
     float: right;
     width: 48%;
+    border-radius: 25px; 
   }
-
 
 .cardimg{
     display: flex;
     justify-content: center;
     margin-bottom: 2%;
-    /* Måste ställa in max width på något vis */
 }
 
 .cardimg, img{
-    max-height: 500px;
+    max-height: 100%;
     max-width: 100%;
     border-radius: 5%;
 }
 
+.largeimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.largeimg, img {
+    flex-shrink: 0;
+}
+
 .h1card{
     text-align: center;
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 
@@ -71,7 +83,7 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     transform: scale(1.05);
 }
 
-@media (max-width: 900px){
+@media (max-width: 968px){
     .cardleft, .cardright{
         flex-direction: column;
         padding: 1%;
@@ -159,6 +171,7 @@ button:hover {
     margin-bottom: 30px;
     display: flex;
     max-width: 100%;
+    border-radius: 25px;
 }
 
 .fleximg {
@@ -180,7 +193,7 @@ button:hover {
     margin-bottom: 40px;
 }
 
-@media (max-width: 900px){
+@media (max-width: 968px){
     .flexcard{
         display: block;
     }
